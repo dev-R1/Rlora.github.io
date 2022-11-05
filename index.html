@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dev.RL Porfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Rafael Lora's<br />
+							Portfolio</h1>
+							<p>Support Professional <br />
+								skilled in Excel, SQL, Tableau and Python</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="#header" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="#main">Projects</a></li>
+							<li ><a href='#contact'>Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/r-lora" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/dev-R1/PortfolioProjects" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Student_loans_by_state.xlsx">Data Visualization<br />
+											In Excel</a></h2>
+									</header>
+									<a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Student_loans_by_state.xlsx" class="image fit"><img src="images/pic01.gif" alt="" /></a>
+									<p>This dynamic interactive dashboard compares the amount of student loan debt with the  number of borrowers per state for 2022. The data is divided by dollar amounts ranging from those owning less than $5k in loans to over $200k. The dataset used for this project was obtained from <a href="https://studentaid.gov/data-center/student/portfolio"><strong>The office of Federal Student Aid</strong>.</a> Techniques and formulas used for analysis:</p>
+									<ul class="summaries">
+										<li>
+											A combination of cell range referencing, CHOOSE() function, and data validation lists to create a dynamic chart compatible with Excel for Web.
+										</li>
+										<li>
+											Conditional filtering for generating the values used for the 'Top 10 Categories' charts.
+										</li>
+										<li>
+											Conditional formatting and aggregate functions for tabulating debt and borrower amounts per state.
+										</li>
+										<li>
+											Named Ranges for filtered value sets.
+										</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Student_loans_by_state.xlsx" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://public.tableau.com/app/profile/rafael.lora1070/viz/MonkeypoxGlobalData/GlobalMonkeypoxStatistics">Tableau Dashboard<br />
+											for Monkeypox Data</a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/rafael.lora1070/viz/MonkeypoxGlobalData/GlobalMonkeypoxStatistics" class="image fit"><img src="images/pic02.gif" alt="" /></a>
+									<p>A dashboard summarizing global Monkeypox case statistics, searchable by country name, case count, or by interactive map. Built from queries created in my <a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Monkeypox_portfolio_scripts.sql"><strong>Data Exploration in SQL</strong></a> project, this dashboard showcases the rate of spread from January 2022 to September 2022, percentage of cases resulting in hospitalization per country, and global case totals aggregated by month.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/rafael.lora1070/viz/MonkeypoxGlobalData/GlobalMonkeypoxStatistics" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Monkeypox_portfolio_scripts.sql">Data Exploration in <br />
+											SQL</a></h2>
+									</header id="sql-link">
+									<a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Monkeypox_portfolio_scripts.sql" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>An exploratory analysis of reported global Monkeypox cases using PostgreSQL. The <a href="https://www.kaggle.com/datasets/deepcontractor/monkeypox-dataset-daily-updated">original dataset</a> contained three tables which I then denormalized into two for more efficient querying. Skills used for this project include:
+										<ul class="summaries">
+											<li>Aggregate Functions</li>
+											<li>Conditional Expressions</li>
+											<li>Converting Data Types</li>
+											<li>Joins</li>
+										</ul>
+										</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/Monkeypox_portfolio_scripts.sql" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/NYC_housing_portfolio_scripts.sql">Data Cleaning in SQL<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/dev-R1/PortfolioProjects/blob/main/NYC_housing_portfolio_scripts.sql" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+									<p>Created using a custom dataset I designed using the test data generator and API mocking tool - Mockaroo. The goal of this project was to standardize the data, eliminate redundancies, and separate the discrete components of columns containing multiple values. The dataset schema can be viewed <a href=" https://www.mockaroo.com/c374d810"><strong>here</strong>.</a> Skills used for this project:</p>
+									<ul class="summaries">
+										<li>Database normalization</li>
+										<li>Managing tables</li>
+										<li>Regular Expressions</li>
+										<li>String Functions</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/dev-R1/PortfolioProjects/blob/main/NYC_housing_portfolio_scripts.sql" class="button large">View Project</a></li>
+									</ul>
+								</article>
+							</section>	
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formsubmit.co/24a8aeaeb2c2c8294aeed95ae74a2622">
+								<div  id="contact" class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required/>
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required/>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"required></textarea>
+									</div>
+								</div>
+								<ul id="sendbutton" class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<section>
+								<!-- <h3>Social</h3> -->
+								<ul id="bottom-icons" class="icons alt">
+									<li><a href="https://www.linkedin.com/in/r-lora" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/dev-R1/PortfolioProjects" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+						</section>
+					</footer>
+					
+				<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; Dev.Rl</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
